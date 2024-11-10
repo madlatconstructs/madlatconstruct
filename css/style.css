@@ -24,6 +24,11 @@ body {
   color: #6a6a6a;
   font-size: 14px;
   background-color: #eff2f1; }
+  
+.visionflex  {
+  display: flex;
+  flex-direction: row;
+}
 
 a {
   text-decoration: none;
@@ -131,8 +136,11 @@ a {
       .hero h1 {
         font-size: 54px; } }
   .hero p {
-    color: rgba(0, 0, 0, 0.5);
-    margin-botom: 30px; }
+    color: #ffffff;
+    margin-botom: 30px; 
+    font-size: 24px; 
+
+  }
   .hero .hero-img-wrap {
     position: relative; }
     .hero .hero-img-wrap img {

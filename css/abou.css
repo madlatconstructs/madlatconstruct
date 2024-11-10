@@ -1,0 +1,17 @@
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.flexcon{
+    display: flex;
+    flex-direction: row;
+
+}
+
+body{
+    background-color: aqua;
+}
