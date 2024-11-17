@@ -55,6 +55,45 @@ body {
     flex-direction: column;
   }
 }
+@media (max-width: 768px) {
+.ocv>B{
+  font-size: 35px;
+
+}
+.d-flex {
+  flex-direction: column;
+  gap: 20px;
+}
+.vmdiv > div {
+  margin-bottom: 20px;
+}
+.h1s {
+  font-size: 24px;
+}
+.h3s {
+  font-size: 20px;
+}
+.ptags {
+  font-size: 14px;
+}
+}
+@media (max-width: 480px) {
+
+.ocv>B{
+  font-size: 25px;
+  
+
+}
+.h1s {
+  font-size: 20px;
+}
+.h3s {
+  font-size: 18px;
+}
+.ptags {
+  font-size: 13px;
+}
+}
 
 a {
   text-decoration: none;
