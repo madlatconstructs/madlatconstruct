@@ -84,40 +84,33 @@
 		
 
 		<!-- Start Why Choose Us Section -->
-		<div class="why-choose-section">
-
-			<div class="visionflex">
-
+		<div class="why-choose-section" style="background-color: #f4f4f4; padding: 60px; font-family: 'Arial Black', Arial, sans-serif;">
+			<div class="visionflex" style="max-width: 1200px; margin: 0 auto;">
 				<div>
-					<h1 style="color: rgb(81, 81, 218); " class="h1s">
-						Company overview
+					<h1 style="color: #1f1fb8; font-size: 50px; text-align: center; font-weight: bold; margin-bottom: 40px;">
+						Company Overview
 					</h1>
-					<div class="d-flex vmdiv">
-						<div>
-							<h3 class="h3s">
-								<ul class="vsul">
-									<li class="vs">VISION STATEMENT</li>
-								</ul>
+					<div class="d-flex vmdiv" style="display: flex; gap: 20px; justify-content: space-between; flex-wrap: wrap;">
+						<div style="flex: 1; min-width: 300px; max-width: 100%; border: 3px solid #1f1fb8; padding: 20px; border-radius: 15px; background-color: #ffffff; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+							<h3 style="font-size: 28px; color: #1f1fb8; margin-bottom: 15px; text-transform: uppercase; text-align: center;">
+								Vision Statement
 							</h3>
-							<p class="ptags">
+							<p style="font-size: 18px; color: #333; line-height: 1.8; text-align: justify; font-weight: 600;">
 								Building a legacy of innovation and excellence in Africa's construction industry, with a vision to lead by 2050.
 							</p>
 						</div>
-						<div>
-							<h3 class="h3s">
-								<ul class="vsul">
-									<li class="vs">MISSION STATEMENT</li>
-								</ul>
+						<div style="flex: 1; min-width: 300px; max-width: 100%; border: 3px solid #1f1fb8; padding: 20px; border-radius: 15px; background-color: #ffffff; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+							<h3 style="font-size: 28px; color: #1f1fb8; margin-bottom: 15px; text-transform: uppercase; text-align: center;">
+								Mission Statement
 							</h3>
-	
-							<p class="ptags">
+							<p style="font-size: 18px; color: #333; line-height: 1.8; text-align: justify; font-weight: 600;">
 								Empowered by competence, excellence, and integrity, we deliver quality services that prioritize aesthetics, contributing to the growth of the built environment and enhancing the lives of those we serve.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div>
-					<p class="ptags">
+				<div style="margin-top: 40px; border: 3px solid #1f1fb8; padding: 30px; border-radius: 15px; background-color: #ffffff; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); margin-left: 60px;">
+					<p style="font-size: 18px; color: #333; line-height: 1.8; text-align: justify; font-weight: 600;">
 						At Madlat Constructs Limited, we're driven by a passion for enhancing the built environment through aesthetically pleasing designs.
 						<br><br> To bring our vision to life, we collaborate with expert construction professionals who share our commitment to excellence. Our dedication to quality delivery has fostered strong, personalized relationships with our clients, allowing us to intuitively understand their aspirations and goals. 
 						<br><br>This client-centric approach has become a hallmark of our success, enabling us to deliver tailored solutions that exceed expectations and bring dreams to life.
@@ -125,11 +118,63 @@
 				</div>
 			</div>
 		</div>
+		
+		<!-- Add this CSS for responsiveness -->
+		<style>
+			@media (max-width: 768px) {
+				.why-choose-section {
+					padding: 40px;
+				}
+				.why-choose-section h1 {
+					font-size: 40px;
+				}
+				.d-flex div {
+					padding: 15px;
+				}
+				.d-flex h3 {
+					font-size: 24px;
+				}
+				.d-flex p {
+					font-size: 16px;
+				}
+			}
+		
+			@media (max-width: 480px) {
+				.why-choose-section {
+					padding: 30px;
+				}
+				.why-choose-section h1 {
+					font-size: 36px;
+				}
+				.d-flex div {
+					padding: 10px;
+				}
+				.d-flex h3 {
+					font-size: 20px;
+				}
+				.d-flex p {
+					font-size: 14px;
+				}
+			}
+		</style>
+		
 		<!-- End Why Choose Us Section -->
 		<!-- End Why Choose Us Section -->
 
 		<div class="altbody">
-			<p style="font-size: 50px; color: blue;" class="ocv"><b>OUR CORE VALUES</b></p>
+			<p 
+				style="
+				    font-size: 50px; 
+					color: transparent; 
+					background: linear-gradient(to right, blue 30%, white 70%); 
+					-webkit-background-clip: text; 
+					background-clip: text;
+				" 
+				class="ocv"
+				>
+				<b>OUR CORE VALUES</b>
+			</p>
+
 			<div class="core-values-container">
 			  <div class="core-value">
 				<i class="fa-solid fa-handshake-angle" style="font-size: 48px;"></i>
@@ -189,6 +234,11 @@
   </div>
   <button class="control prev" onclick="prevSlide()">&#10094;</button>
   <button class="control next" onclick="nextSlide()">&#10095;</button>
+</div>
+<div>
+	<div>
+		
+	</div>
 </div>
 
 
@@ -376,7 +426,7 @@
 				<div class="border-top copyright">
 					<div class="row pt-4">
 						<div class="col-lg-6">
-							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. Copyright Notice: "© [Year] Madlat Architecture & Interior Design. All rights reserved.". &mdash; Designed with love by <a href="https://untree.co">TEAM VIKKY</a> <a hreff="https://themewagon.com"></a>  <!-- License information: https://untree.co/license/ -->
+							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. Copyright Notice: "© 2024 Madlat Architecture & Interior Design. All rights reserved.". &mdash; Designed with love by <a href="https://untree.co">TEAM VIKKY</a> <a hreff="https://themewagon.com"></a>  <!-- License information: https://untree.co/license/ -->
             </p>
 						</div>
 
